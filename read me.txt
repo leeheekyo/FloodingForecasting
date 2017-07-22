@@ -1,26 +1,7 @@
-//////////////////////////////////////////////////////
-//                       in sql                     //
-//////////////////////////////////////////////////////
+examination
 
-1. make table 
-connect db and create database and 'meta_values' table.
-CREATE TABLE `meta_values` (
-  `location_code` varchar(5) NOT NULL,
-  `_date` date NOT NULL,
-  `hour` int(11) NOT NULL,
-  `minute` int(11) NOT NULL,
-  `second` int(11) NOT NULL,
-  `attribute_name` varchar(10) NOT NULL,
-  `value` float DEFAULT NULL,
-  PRIMARY KEY (`location_code`,`_date`,`hour`,`minute`,`second`,`attribute_name`),
-  KEY `attribute_name` (`attribute_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+1. data : it consist of csv file, so you can esay to parsing data.
 
-2. insert data
-mysql -uroot -p [database_name] < ./sql/2016_waterHight
+2. learning : it is developed by python.
 
-//////////////////////////////////////////////////////
-//                      end sql                     //
-//////////////////////////////////////////////////////
-
-
+3. ui : it is visualize system.
