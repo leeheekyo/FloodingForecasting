@@ -1,7 +1,9 @@
-examination
+read me.
 
-1. data : it consist of csv file, so you can esay to parsing data.
+1. data : it consist of csv file, so you can esay to parsing data. it just have a sample of data.
 
 2. learning : it is developed by python.
+  2-1. regression      : Linear Regreesion Learning.
+  2-2. Backpropagation : just using Backpropagation.
+  2-3. LinearRegression_Backpropagation : layer 1 is consist of data that is result of Linear Regreesion.
 
-3. ui : it is visualize system.
