@@ -170,7 +170,7 @@ def learning1(x_data, y_data, c_W1, c_b1):
           sess.run([W1])
           if step%100 == 0 :
             h, c, a = sess.run([hypothesis, predicted, accuracy], feed_dict={X: x_data, Y: y_data})
-            print("\nAccuracy: ", a, " time : ", time)
+            print("\nAccuracy: ", a, " times : ", step)
       return(W1.eval(), b1.eval())
   
 
@@ -190,7 +190,7 @@ for test in range(N-1):
   y_test1=[]
   y_test2=[]
   print("###########################")
-  print("########### "+ str(test)+ " ############")
+  print("########### "+ str(test)+ " #############")
   print("###########################")
 
   ##########################################################
